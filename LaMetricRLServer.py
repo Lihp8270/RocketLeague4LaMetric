@@ -131,7 +131,7 @@ isRunning = 0
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Bind the socket to the port
-server_address = ('localhost', 10000)
+server_address = ('your address', your port)
 print ('Starting up on %s port %s' % server_address, file=sys.stderr)
 sock.bind(server_address)
 
